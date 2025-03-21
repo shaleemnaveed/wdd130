@@ -40,6 +40,10 @@ a {
     height: auto;
 }
 
+div {
+    position: relative;
+}
+
 .hero article img {
     width: 30%;
     float: right;
