@@ -1,0 +1,60 @@
+:root {
+    --accent-1: #ffffff;
+    --accent-2: #134e4b;
+    --primary-color: #24755E;
+    --secondary-color: #4594B0;
+    --heading-font: Boldonse;
+    --paragraph-font: 'Open Sans';
+}
+
+h1 {
+    font-family: var(--heading-font);
+    font-weight: 500;
+    color: var(--accent-1);
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    bottom: 400px;
+    left: 96px;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    font-weight: 300;
+    color: var(--accent-2);
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    width: 30%;
+    float: right;
+    padding: 20px;
+}
+
+article p {
+    color: var(--accent-1);
+    padding-left: 10px;
+}
+
+article {
+    position: absolute;
+    background-color: rgba(19, 78, 74, 0.75);
+    width: 80%;
+    bottom: 125px;
+    left: 115px;
+}
