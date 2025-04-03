@@ -1,7 +1,7 @@
 :root {
     --accent-1: #ffffff;
     --accent-2: #134e4b;
-    --primary-color: #24755E;
+    --primary-color: #77182A;
     --secondary-color: #4594B0;
     --heading-font: Boldonse;
     --paragraph-font: 'Open Sans';
@@ -13,17 +13,17 @@ h1 {
     color: var(--accent-1);
     background-color: rgba(0, 0, 0, 0.75);
     position: absolute;
-    width: 80%;
+    width: 97%;
     padding: 20px;
     text-align: center;
     bottom: 70%;
-    left: 7.5%;
 }
 
 h2 {
     font-family: var(--heading-font);
     font-weight: 300;
     color: var(--accent-2);
+    text-align: center;
 }
 
 p {
@@ -42,6 +42,7 @@ a {
 
 .hero {
     position: relative;
+    border-style: groove;
 }
 
 .hero article img {
@@ -61,4 +62,77 @@ article {
     width: 80%;
     top: 30%;
     left: 9%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    border-style: groove;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+    border: 1.5px solid black;
+    padding: 20px;
+}
+
+header nav a,
+footer p {
+    font-weight: 500;
+}
+
+header,
+header nav a,
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent-1);
+}
+
+.history {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2%;
+    border-style: groove;
+}
+
+.history p:last-child {
+    order: -1;
+}
+
+.history div {
+    margin-bottom: 2.5%;
+    margin-right: 4%;
+}
+
+.adventure-images {
+    display: flex;
+}
+
+figcaption {
+    font-family: var(--paragraph-font);
+}
+
+.adventure {
+    border-style: groove;
+}
+
+footer {
+    border-style: groove;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+footer p {
+    padding: 10px;
+    text-align: right;
+}
+
+.socials {
+    padding: 10px 20px 10px 10px;
+    grid-column: -1;
+    ;
 }
