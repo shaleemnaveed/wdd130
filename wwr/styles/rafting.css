@@ -71,17 +71,35 @@ header {
     border-style: groove;
 }
 
+header img {
+    margin: 20px 0 20px 40%;
+    border-style: groove;
+}
+
 header nav {
     display: flex;
     justify-content: space-around;
     margin-right: 10%;
-    border: 1.5px solid black;
-    padding: 20px;
+    margin-left: 15%;
+    border-style: groove;
+    height: 50px;
+}
+
+header nav a {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid whitesmoke;
+    padding: 0 51px;
+}
+
+header nav a:last-child {
+    border-right: none;
 }
 
 header nav a,
 footer p {
     font-weight: 500;
+    font-size: larger;
 }
 
 header,
