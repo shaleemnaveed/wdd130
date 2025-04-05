@@ -85,14 +85,15 @@
                 </fieldset>
                 <fieldset class="user-message">
                     <legend>Query</legend>
-                    <label class="inquiry">
-                        How can we help you?
-                        <select id="inquiry" name="inquiry">
-                            <option value="general">General Inquiry</option>
-                            <option value="reservation">Reservation Question</option>
-                            <option value="suggestion">Website Suggestion</option>
-                        </select>
-                    </label>
+                    <p>What can we help you with?</p>
+                    <div class="inquiry">
+                        <input type="radio" id="general" name="general" value="General Inquiry">
+                        <label for="general">General Inquiry</label>
+                        <input type="radio" id="reservation" name="reservation" value="Reservation Question">
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" id="suggestion" name="suggestion" value="Website Suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
                     <br>
                     <label class="message">Message:<textarea id="message" name="message" rows="5"></textarea></label>
                     <br>

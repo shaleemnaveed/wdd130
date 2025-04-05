@@ -274,9 +274,8 @@ iframe {
 }
 
 .inquiry {
-    display: grid;
-    justify-content: center;
-    gap: 20%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .message {
@@ -315,7 +314,6 @@ legend {
 
 label,
 input,
-select,
 textarea {
     font-family: var(--paragraph-font);
 }
