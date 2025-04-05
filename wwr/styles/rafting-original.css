@@ -7,16 +7,13 @@
     --paragraph-font: 'Open Sans';
 }
 
-h1,
-h2 {
-    font-family: var(--heading-font);
-}
-
 h1 {
+    font-family: var(--heading-font);
     font-weight: 500;
 }
 
 h2 {
+    font-family: var(--heading-font);
     font-weight: 300;
 }
 
@@ -113,8 +110,6 @@ header nav a:last-child {
 footer p {
     font-weight: 500;
     font-size: larger;
-    padding: 10px;
-    text-align: right;
 }
 
 header,
@@ -164,6 +159,11 @@ footer {
     border-style: groove;
     display: grid;
     grid-template-columns: 4fr 1fr;
+}
+
+footer p {
+    padding: 10px;
+    text-align: right;
 }
 
 .socials {
@@ -264,7 +264,10 @@ iframe {
     padding: 2rem;
 }
 
-#name,
+#name {
+    display: grid;
+}
+
 #email {
     display: grid;
 }
@@ -293,14 +296,13 @@ button {
     background-color: var(--accent-2);
     color: var(--accent-1);
     border: none;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
+    border-radius: .5rem;
+    padding: .75rem;
     width: 100%;
-    font-family: var(--heading-font);
 }
 
 button:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color)
 }
 
 #contact {
@@ -311,6 +313,11 @@ legend {
     padding: 0.5rem;
     font-family: var(--heading-font);
     color: var(--accent-2);
+}
+
+button {
+    padding: 0.5rem;
+    font-family: var(--heading-font);
 }
 
 label,
