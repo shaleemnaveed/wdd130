@@ -172,8 +172,13 @@ footer {
     display: flex;
 }
 
-figure,
+figure {
+    border-style: groove;
+    border-radius: 0.5em;
+}
+
 figcaption {
+    font-family: var(--paragraph-font);
     border-style: groove;
     border-radius: 0.5em;
 }
@@ -416,6 +421,7 @@ aside a {
 .action-2 a:hover {
     background-color: var(--secondary-color);
 }
+
 
 #safe h1 {
     font-size: 7rem;
