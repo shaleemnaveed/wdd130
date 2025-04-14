@@ -37,7 +37,7 @@ h2 {
     background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     width: 72.5%;
-    padding: 130px 189px;
+    padding: 125px 187px;
     bottom: 0%;
     display: grid;
     grid-template-columns: 2.5fr 1fr;
@@ -120,7 +120,7 @@ header nav a {
     display: flex;
     align-items: center;
     border-right: 2px solid whitesmoke;
-    padding: 0 60px;
+    padding: 0 55px;
 }
 
 header nav a:last-child {
